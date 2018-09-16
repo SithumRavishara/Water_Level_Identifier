@@ -8,7 +8,7 @@ public class Demo{
         waterLevelObservable.addWaterLevelObserver(new Alarm());
         waterLevelObservable.addWaterLevelObserver(new Display());
         waterLevelObservable.addWaterLevelObserver(new SMSSender());
-
+        waterLevelObservable.addWaterLevelObserver(new splitter());
         Random r=new Random();
         while(true){
             int rand=r.nextInt(101);

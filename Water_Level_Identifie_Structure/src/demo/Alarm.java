@@ -7,13 +7,13 @@ package demo;
 
 /**
  *
- * @author niroth
+ * @author sithum
  */
 public class Alarm extends WaterLevelObserver{
 
     @Override
     public void update(int waterLevel) {
-        System.out.println(waterLevel>=50 ? "ON":"OFF");
+        System.out.println(waterLevel>=50 ? "Alarm ON":"Alarm OFF");
     }
     
 }

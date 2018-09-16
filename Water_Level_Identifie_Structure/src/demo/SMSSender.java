@@ -7,7 +7,7 @@ package demo;
 
 /**
  *
- * @author niroth
+ * @author sithum
  */
 public class SMSSender extends WaterLevelObserver{
 
