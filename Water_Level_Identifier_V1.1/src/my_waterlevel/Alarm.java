@@ -102,7 +102,7 @@ public class Alarm extends javax.swing.JFrame implements Observer{
 
     @Override
     public void update(int waterLevel) {
-        output.setText(waterLevel>=75 ? "yes": "No");
+        output.setText(waterLevel>=60 ? "yes": "No");
     }
 
 
