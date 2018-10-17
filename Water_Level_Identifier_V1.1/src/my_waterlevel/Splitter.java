@@ -8,6 +8,7 @@ package my_waterlevel;
 public class Splitter implements Observer{
      @Override    
      public void update(int waterLevel) {        
-         System.out.println(waterLevel>=75 ? "Splitter ON" :"Splitter OFF");     
+         System.out.println(waterLevel>=75 ? "Splitter ON" :"Splitter OFF");
+         System.out.println(waterLevel>=75 ? "WARNING!" :"NORMAL");
      }
 }
