@@ -16,6 +16,7 @@ public class Demo {
         Observable b = new Observable();
         b.addwaterlevel(new Alarm());
         b.addwaterlevel(new WaterLevelDisplay());
+         b.addwaterlevel(new splitterdisplay());
         
         
         new WaterTank(b).setVisible(true);
