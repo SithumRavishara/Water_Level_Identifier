@@ -128,7 +128,7 @@ public class splitterdisplay extends javax.swing.JFrame implements Observer{
     // End of variables declaration//GEN-END:variables
 @Override
     public void update(int waterLevel) {
-        splitfield.setText(""+waterLevel);
+        splitfield.setText(waterLevel>=75 ? "Splitter ON" :"Splitter OFF");
     }
 
 }
